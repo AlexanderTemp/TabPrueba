@@ -15,23 +15,40 @@ $all_groups = find_all('user_groups');
   <div class="col-md-16">
     <div class="panel panel-default">
       <div class="panel-body">
-        <label for="numeroIngreso">Número: </label>
-        <input type="text" class="form-control" name="numeroIngreso" id="numeroIngreso" value="8">
-        <label for="fechaIngreso">Fecha: </label>
-        <!-- TODO: Tipo de dato fecha seleccionar -->
-        <input type="text" class="form-control" name="fechaIngreso" id="fechaIngreso">
-        <label for="numeroIngreso">Moneda: </label>
-        <input type="text" class="form-control" name="monedaIngreso" id="monedaIngreso" value="Bolivianos" readonly>
-        <label for="numeroIngreso">Referencia: </label>
-        <input type="text" class="form-control" name="referenciaIngreso" id="referenciaIngreso" value="">
+        <div class="row d-flex">
+          <label for="numeroIngreso" class=>Número: </label>
+          <input type="text" class="form-control" name="numeroIngreso" id="numeroIngreso" value="8">
+        </div>
+        <div class="row d-flex lg">
+          <label for="fechaIngreso">Fecha: </label>
+          <!-- TODO: Tipo de dato fecha seleccionar -->
+          <input type="text" class="form-control" name="fechaIngreso" id="fechaIngreso">
+        </div>
+        <div class="row d-flex lg">
+          <label for="numeroIngreso">Moneda: </label>
+          <input type="text" class="form-control" name="monedaIngreso" id="monedaIngreso" value="Dolares" readonly>
+        </div>
+        <div class="row d-flex lg">
+          <label for="numeroIngreso">Referencia: </label>
+          <input type="text" class="form-control" name="referenciaIngreso" id="referenciaIngreso" value="">
+        </div>
+        <div class="row d-flex lg">
+          <label for="personaIngreso">Persona: </label>
+          <!-- TODO: Conexión con tabla encargados-->
+          <select class="form-select form-select-lg" name="personaIngreso" id="personaIngreso">
+            <option selected>Campos Rodriguez Ambar Rocio </option>
+            <option value="Otro">Otro</option>
+          </select>
+        </div>
+        <div class="row d-flex lg">
+          <label for="numeroIngreso">Número: </label>
+          <input type="text" class="form-control" name="numeroIngreso" id="numeroIngreso" value="8">
+        </div>
+        <div class="row d-flex lg">
+          <label for="numeroIngreso">Número: </label>
+          <input type="text" class="form-control" name="numeroIngreso" id="numeroIngreso" value="8">
+        </div>
 
-        <label for="numeroIngreso">Persona: </label>
-        <input type="text" class="form-control" name="numeroIngreso" id="numeroIngreso" value="8">
-        <label for="numeroIngreso">Número: </label>
-        <input type="text" class="form-control" name="numeroIngreso" id="numeroIngreso" value="8">
-        <label for="numeroIngreso">Número: </label>
-        <input type="text" class="form-control" name="numeroIngreso" id="numeroIngreso" value="8">
-        
       </div>
     </div>
   </div>
